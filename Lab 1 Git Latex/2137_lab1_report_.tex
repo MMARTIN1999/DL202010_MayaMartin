@@ -99,49 +99,22 @@ In this section, put your simulation waveforms, results tables, pictures of hard
 
 \begin{center}
 	\includegraphics[width=1.0\textwidth, trim=19cm 15cm .5cm 4cm,clip]{lab1_example_screenshot.PNG}
-\begin{center}
-	
+\end{center}	
 \begin{center}
 Figure 1.1: Table and simulation waveform to reproduce 
-\begin{center}
+\end{center}
 	
 	
 \section*{Code}
+module example
+\#(parameter BITS=4)
+(
+input [BITS-1:0] in0, in1,
+input sel,
+output [BITS-1:0] out
+);
 
-Include all of the code you wrote or modified here.
-\begin{lstlisting}[style=Verilog,
-caption=Maya Martin's Code,
-label=code:ex 
-]
-\begin{center}
-\begin{tabular}{cc|c}
-\toprule
-Binary & Hex & Decimal \\
-\midrule
-0000 & 0 & 0 \\
-0010 & 2 & 2 \\
-0100 & 4 & 4 \\
-1000 & 8 & 8 \\
-1010 & A & 10 \\
-\bottomrule
-\end{tabular} 
-\end{center}
-
-\begin{center}
-\includegraphics[width=1.0\textwidth, trim=19cm 15cm .5cm 4cm,clip]{lab1_example_screenshot.PNG}
-\begin{center}
-
-\begin{center}
-Figure 1.1: Table and simulation waveform to reproduce 
-\begin{center}
-\end{lstlisting}
-
-\Verilog[caption=File-included Verilog code example,label=code:file_ex]{lab1_example_code.sv}
-
-\maketitle 
-\begin{center}
-	\includegraphics[width=1.0\textwidth, trim=19cm 15cm .5cm 4cm,clip]{screenshot.png}
-	\begin{center}
-
-
+// Choose in1 or in0
+out = sel ? in1: in0; 
+endmodule
 \end{document}

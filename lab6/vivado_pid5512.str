@@ -1,0 +1,123 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5512
+License: Customer
+
+Current time: 	Thu Feb 27 00:57:58 CST 2020
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 516 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/XilinxVivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/XilinxVivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Martinmay
+User home directory: C:/Users/Martinmay
+User working directory: H:/ELC2137/DL202010_MMYX/Lab 6/lab6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/XilinxVivado/Vivado
+HDI_APPROOT: C:/XilinxVivado/Vivado/2018.3
+RDI_DATADIR: C:/XilinxVivado/Vivado/2018.3/data
+RDI_BINDIR: C:/XilinxVivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Martinmay/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Martinmay/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Martinmay/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/XilinxVivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	H:/ELC2137/DL202010_MMYX/Lab 6/lab6/vivado.log
+Vivado journal file location: 	H:/ELC2137/DL202010_MMYX/Lab 6/lab6/vivado.jou
+Engine tmp dir: 	H:/ELC2137/DL202010_MMYX/Lab 6/lab6/.Xil/Vivado-5512-ROG-305-10
+
+Xilinx Environment Variables
+----------------------------
+VSSDK140Install: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+XILINX: C:/XilinxVivado/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@lm-xilinx.ecs.baylor.edu
+XILINX_DSP: C:/XilinxVivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/XilinxVivado/Vivado/2018.3
+XILINX_SDK: C:/XilinxVivado/SDK/2018.3
+XILINX_VIVADO: C:/XilinxVivado/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/XilinxVivado/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 551 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: H:\ELC2137\DL202010_MMYX\Lab 6\lab6\lab6.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {H:/ELC2137/DL202010_MMYX/Lab 6/lab6/lab6.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {H:/ELC2137/DL202010_MMYX/Lab 6/lab6/lab6.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVivado/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 86 MB (+88074kb) [00:00:19]
+// [Engine Memory]: 609 MB (+486971kb) [00:00:19]
+// [GUI Memory]: 101 MB (+11174kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  4401 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 47 MB. Current time: 2/27/20, 12:58:04 AM CST
+// [Engine Memory]: 696 MB (+59642kb) [00:00:23]
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 726.125 ; gain = 155.676 
+// Project name: lab6; location: H:/ELC2137/DL202010_MMYX/Lab 6/lab6; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (cp)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 4); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1 (sseg1.sv)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1 (sseg1.sv)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1 (sseg1.sv)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 4); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3, sseg_test (sseg1_test.sv)]", 5, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3, sseg_test (sseg1_test.sv)]", 5, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
